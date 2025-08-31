@@ -1,36 +1,47 @@
-# Titanic-EDA-Project 🚢  
+# 🚢 Titanic EDA Project  
 
-This project explores the Titanic dataset using Exploratory Data Analysis (EDA). The goal is to uncover key insights about the passengers, survival rates, and patterns within the data.  
+An exploratory data analysis (EDA) of the **Titanic Passenger Dataset** to uncover survival patterns and key insights that can support predictive modeling.  
 
 ---
 
-## 📊 Project Overview  
+## 🚀 Project Overview  
 
-- Perform data cleaning (handling missing values, duplicates, etc.)  
-- Explore survival patterns across gender, age, class, and family size  
-- Generate insights that could help build predictive models  
+This project focuses on analyzing the Titanic dataset with the aim of:  
+- Cleaning and preparing the raw passenger data  
+- Exploring survival rates across **gender, age, class, and family size**  
+- Highlighting patterns that explain who had a better chance of survival  
 
 ---
 
 ## 🗂️ Dataset  
 
-The dataset used is the Titanic Passenger Dataset (available on Kaggle).  
-
-- `titanic_cleaned.csv` → final cleaned dataset used for analysis  
+- Source: **Kaggle Titanic Passenger Dataset**  
+- Files:  
+  - `Titanic-cleaned.csv` → final cleaned dataset used in analysis  
 
 ---
 
 ## ⚙️ Tools & Libraries  
 
-- Python (Pandas, NumPy)  
-- Matplotlib, Seaborn  
-- PyCharm  
+- **Python:** Pandas, NumPy  
+- **Environment:** PyCharm  
 
 ---
 
 ## 📈 Key Insights  
 
-- Women had a higher survival rate compared to men  
-- First-class passengers survived more than third-class passengers  
-- Women in the first class had the greatest chance of survival (96.8%)  
-- Men in the third class had the lowest chance of survival (13.5%)  
+- **Women survived at higher rates** compared to men  
+- **First-class passengers** had a significantly higher survival rate than third-class  
+- **Women in first class** had the greatest survival chance (**96.8%**)  
+- **Men in third class** had the lowest survival chance (**13.5%**)  
+
+---
+
+## 📂 Project Structure  
+
+```bash
+├── LICENSE
+├── README.md
+├── Titanic-cleaned.csv        # Cleaned dataset
+├── Titanic.py                 # Main Python script for EDA
+├── titanic_summary_report.txt # Summary of findings
