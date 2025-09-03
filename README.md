@@ -1,10 +1,10 @@
-# 🚢 Titanic EDA Project  
+#  Titanic EDA Project  
 
 An exploratory data analysis (EDA) of the **Titanic Passenger Dataset** to uncover survival patterns and key insights that can support predictive modeling.  
 
 ---
 
-## 🚀 Project Overview  
+##  Project Overview  
 
 This project focuses on analyzing the Titanic dataset with the aim of:  
 - Cleaning and preparing the raw passenger data  
@@ -13,7 +13,7 @@ This project focuses on analyzing the Titanic dataset with the aim of:
 
 ---
 
-## 🗂️ Dataset  
+##  Dataset  
 
 - Source: **Kaggle Titanic Passenger Dataset**  
 - Files:  
@@ -21,14 +21,14 @@ This project focuses on analyzing the Titanic dataset with the aim of:
 
 ---
 
-## ⚙️ Tools & Libraries  
+##  Tools & Libraries  
 
 - **Python:** Pandas, NumPy  
 - **Environment:** PyCharm  
 
 ---
 
-## 📈 Key Insights  
+##  Key Insights  
 
 - **Women survived at higher rates** compared to men  
 - **First-class passengers** had a significantly higher survival rate than third-class  
@@ -37,7 +37,7 @@ This project focuses on analyzing the Titanic dataset with the aim of:
 
 ---
 
-## 📂 Project Structure  
+##  Project Structure  
 
 ```bash
 ├── LICENSE
