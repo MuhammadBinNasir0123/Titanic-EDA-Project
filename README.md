@@ -40,8 +40,8 @@ This project focuses on analyzing the Titanic dataset with the aim of:
 ##  Project Structure  
 
 ```bash
-├── LICENSE
-├── README.md
+├── LICENSE                    #License file
+├── README.md                  #Project description
 ├── Titanic-cleaned.csv        # Cleaned dataset
 ├── Titanic.py                 # Main Python script for EDA
 ├── titanic_summary_report.txt # Summary of findings
