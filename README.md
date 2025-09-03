@@ -41,7 +41,7 @@ This project focuses on analyzing the Titanic dataset with the aim of:
 
 ```bash
 ├── LICENSE                    #License file
-├── README.md                  #Project description
+├── README.md                  #Project documentation
 ├── Titanic-cleaned.csv        # Cleaned dataset
 ├── Titanic.py                 # Main Python script for EDA
 ├── titanic_summary_report.txt # Summary of findings
