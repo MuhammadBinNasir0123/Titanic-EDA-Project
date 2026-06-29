@@ -1,73 +1,89 @@
-TITANIC DATASET ANALYSIS REPORT
-==================================================
-Report Generated: 2025-08-29 03:45:21
-Total Passengers: 892
-Overall Survival Rate: 38.4%
+# Titanic EDA Project
 
-1. DATASET OVERVIEW
-------------------------------
-• Dimensions: 892 rows × 10 columns
-• Memory Usage: 246.9 KB
+An exploratory data analysis of the Titanic passenger dataset to uncover survival patterns across gender, class, and age.
 
-2. DATA QUALITY SUMMARY
-------------------------------
-• Passenger_Id: 1 missing values (0.1%)
-• Survived: 1 missing values (0.1%)
-• P class: 1 missing values (0.1%)
-• Name: 1 missing values (0.1%)
-• Sex: 1 missing values (0.1%)
-• SibSp: 1 missing values (0.1%)
-• Parch: 1 missing values (0.1%)
-• Ticket: 1 missing values (0.1%)
-• Embarked: 3 missing values (0.3%)
+---
 
-3. PASSENGER DEMOGRAPHICS
-------------------------------
-• Age Range: 0.4 - 80.0 years
-• Average Age: 29.7 years
-• Median Age: 29.7 years
-• male: 577 passengers (64.7%)
-• female: 314 passengers (35.2%)
-• Class 1.0: 216 passengers (24.2%)
-• Class 2.0: 184 passengers (20.6%)
-• Class 3.0: 491 passengers (55.0%)
+## Project Overview
 
-4. SURVIVAL ANALYSIS SUMMARY
-------------------------------
-Overall Survival Rate: 38.4%
-Survived: 342.0 passengers
-Did Not Survive: 550.0 passengers
+This project focuses on cleaning and analyzing the Titanic dataset to answer one core question: **who was more likely to survive, and why?**
 
-5. SURVIVAL RATES BY DEMOGRAPHICS
-------------------------------
-BY GENDER:
-  • female: 74.2% (314 passengers)
-  • male: 18.9% (577 passengers)
+The analysis covers:
+- Data cleaning and preparation
+- Survival rate breakdowns by gender, class, and age
+- Statistical correlations with survival
+- Auto-generated summary report with key findings
 
-BY PASSENGER CLASS:
-  • Class 1.0: 63.0% (216 passengers)
-  • Class 2.0: 47.3% (184 passengers)
-  • Class 3.0: 24.2% (491 passengers)
+---
 
-6. KEY STATISTICAL FINDINGS
-------------------------------
-• Gender Survival Gap: 55.3% difference
-• Class Survival Gap: 38.7% between highest and lowest class
+## Key Insights
 
-7. CORRELATION INSIGHTS
-------------------------------
-Correlation with Survival (absolute values):
-  • P class: -0.338 (Strong negative correlation)
-  • Parch: +0.082 (Weak positive correlation)
-  • Age: -0.070 (Weak negative correlation)
-  • SibSp: -0.035 (Weak negative correlation)
-  • Passenger_Id: -0.005 (Weak negative correlation)
+| Finding | Value |
+|---|---|
+| Overall Survival Rate | 38.4% |
+| Female Survival Rate | 74.2% |
+| Male Survival Rate | 18.9% |
+| Gender Survival Gap | 55.3% |
+| 1st Class Survival Rate | 63.0% |
+| 3rd Class Survival Rate | 24.2% |
+| Class Survival Gap | 38.7% |
+| Highest Survival Group | Women in Class 1 (96.8%) |
+| Lowest Survival Group | Men in Class 3 (13.5%) |
 
-8. EXECUTIVE SUMMARY
-------------------------------
-• Highest survival: female in Class 1.0 (96.8%)
-• Lowest survival: male in Class 3.0 (13.5%)
-• Survival range: 13.5% to 96.8%
+---
 
-END OF REPORT
-==================================================
+## Dataset
+
+- **Source:** Kaggle Titanic Passenger Dataset
+- **File:** `Titanic-cleaned.csv` : cleaned version used in analysis
+- **Size:** 891 passengers × 10 columns
+
+---
+
+## Tools & Libraries
+
+| Tool | Purpose |
+|---|---|
+| Python 3.8+ | Core language |
+| pandas | Data cleaning and analysis |
+| numpy | Numerical operations |
+| matplotlib | Visualizations |
+| seaborn | Statistical charts |
+| PyCharm | Development environment |
+
+---
+
+## Statistical Findings
+
+**Strongest correlations with survival:**
+- Passenger Class: −0.338 (strong negative — lower class, lower survival)
+- Family size (Parch): +0.082 (weak positive)
+- Age: −0.070 (weak negative)
+
+**Passenger breakdown:**
+- 64.7% male, 35.2% female
+- 55% were 3rd class passengers
+- Age range: 0.4 to 80 years, average 29.7 years
+
+---
+
+## Project Structure
+
+```
+├── Titanic.py                  # Main EDA script
+├── Titanic-cleaned.csv         # Cleaned dataset
+├── titanic_summary_report.txt  # Auto-generated analysis report
+└── README.md                   # Project documentation
+```
+
+---
+
+## Business Relevance
+
+While historical, the Titanic dataset demonstrates real analytical skills:
+- Identifying which variables drive outcomes
+- Quantifying gaps between demographic groups
+- Communicating findings clearly through structured reporting
+- Laying the groundwork for predictive modeling
+
+---
